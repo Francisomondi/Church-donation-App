@@ -1,9 +1,9 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-import connectDB from "./config/db.js";
-import donationRoutes from "./routes/donation.routes.js";
-import errorHandler from "./middleware/error.middleware.js";
+import connectDB from "./Backend/config/db.js";
+import donationRoutes from "./Backend/routes/donation.routes.js";
+import errorHandler from "./Backend/middleware/error.middleware.js";
 
 dotenv.config();
 connectDB();
